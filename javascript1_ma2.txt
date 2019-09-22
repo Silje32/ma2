@@ -2,9 +2,27 @@
 
 1. What is a function literal?
 
+ANSWER : A function literal is another new way of defining an unnamed function.
+         The syntax for a function literal is much like a function statement,
+				 except that it is used as an expression rather than a statement and no
+				 function name is required.
+
+
+
 2. What is the constructor?
 
+ANSWER :
+The constructor creates an object that is based on the original function. A new
+object is being constructed using the "new" keyword.
+
+
+
 3. What does the return statement do?
+
+ANSWER : A return statement will stop the function. Any code after a return
+         statement will not be executed.
+
+
 
 4. What will be written to the console from this function:
 		function myFunction(){
@@ -13,5 +31,22 @@
 		}
 		myFunction();
 
+ANSWER : 'inside my function'
+
+
 
 5. Briefly describe scope in JavaScript.
+
+ANSWER :
+In JavaScript there are a few different types of scope :
+01. Local scope
+02. Global scope
+03. Block scope
+
+Local scope : When a variable object or function is only available
+              locally to a function.
+
+Global scope : When variables, object or functions are available to all.
+
+Block scope : Declare with let and const which are available within the innermost
+              block they are surrounded by.
